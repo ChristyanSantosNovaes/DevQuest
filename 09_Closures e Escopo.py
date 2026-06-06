@@ -17,6 +17,8 @@ funcao_externa()
 print(variavel_global)
 # print(variavel_externa) # NameError: variavel_externa não está definida aqui
 
+print("-----------------------------------------------------------------------------------------------------------------")
+
 #Exemplo de Closures:
 def criar_contador():
     contador = 0 # Variável no escopo envolvente

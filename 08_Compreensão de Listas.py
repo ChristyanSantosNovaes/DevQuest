@@ -19,10 +19,14 @@ flat_list = [num for row in matriz for num in row]
 print(matriz)
 print(f"Lista achatada: {flat_list}.")
 
+print("-----------------------------------------------------------------------------------------------------------------")
+
 #Compreensão de Dicionário (Dictionary Comprehension)
 #{chave_expressao: valor_expressao for item in iteravel if condicao}
 quadrados_dict = {x: x**2 for x in range(5)}
 print(f"Dicionário de quadrados: {quadrados_dict}")
+
+print("-----------------------------------------------------------------------------------------------------------------")
 
 #Compreensão de Set (Set Comprehension)
 #{expressao for item in iteravel if condicao}

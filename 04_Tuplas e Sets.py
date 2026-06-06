@@ -7,6 +7,7 @@ mista_tupla = ("item", 5, False)
 print(f"Tupla de coordenadas: {coordenadas}")
 print(f"Primeira cidade: {cidades[0]}")
 
+print("-----------------------------------------------------------------------------------------------------------------")
 
 #Exemplo de Sets              #CHAVES
 

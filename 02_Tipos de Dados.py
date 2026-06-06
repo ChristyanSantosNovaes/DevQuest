@@ -7,6 +7,7 @@ print(f"Inteiro: {numero_inteiro}, Tipo: {type(numero_inteiro)}")
 print(f"Flutuante: {numero_flutuante}, Tipo: {type(numero_flutuante)}")
 print(f"Complexo: {numero_complexo}, Tipo: {type(numero_complexo)}")
 
+print("---------------------------------------------------------------------------------")
 
 #Exemplo de Tipo Booleano:
 
@@ -15,6 +16,8 @@ falso = False
 
 print(f"Verdadeiro: {verdadeiro}, Tipo: {type(verdadeiro)}")
 print(f"Falso: {falso}, Tipo: {type(falso)}")
+
+print("---------------------------------------------------------------------------------")
 
 #Exemplo de Tipo String:
 

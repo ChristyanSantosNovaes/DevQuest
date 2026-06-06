@@ -5,9 +5,12 @@ def gerador_numeros_pares(limite):
         yield n
         n += 2
 
+
 #Usando o gerador
 for numero in gerador_numeros_pares(10):
     print(numero)
+
+print("-----------------------------------------------------------------------------------------------------------------")
 
 #Outro exemplo -: gerador de Fibonacci
 def fibonacci_generator(n):

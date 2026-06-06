@@ -2,17 +2,25 @@
 
 texto = "  Olá, Mundo!  "
 
+print("-----------------------------------------------------------------------------------------------------------------")
+
 # Concatenação
 mensagem = "Bem" + "-vindo"
 print(f"Mensagem concatenada: {mensagem}")
+
+print("-----------------------------------------------------------------------------------------------------------------")
 
 # Multiplicação
 repetido = "abc" * 3
 print(f"Texto repetido: {repetido}")
 
+print("-----------------------------------------------------------------------------------------------------------------")
+
 # Indexação e Fatiamento
 print(f"Primeiro caractere: {texto[2]}") # 'O'
 print(f"Fatiamento: {texto[5:10]}") # 'Mundo'
+
+print("-----------------------------------------------------------------------------------------------------------------")
 
 # Métodos
 print(f"Maiúsculas: {texto.upper()}")
@@ -26,14 +34,20 @@ print(f"Dividir em palavras: {palavras}")
 junto = "-".join(["um", "dois", "tres"])
 print(f"Juntar palavras: {junto}")
 
+print("-----------------------------------------------------------------------------------------------------------------")
+
 #Exemplo de Formatação de Strings:
 nome = "Ana"
 idade = 25
+
+print("-----------------------------------------------------------------------------------------------------------------")
 
 # Usando o metodo .format()
 print("Olá, meu nome é {} e tenho {} anos.".format(nome, idade))
 print("Olá, meu nome é {0} e tenho {1} anos. {0} gosta de programar.".format(nome, idade))
 print("Olá, meu nome é {n} e tenho {i} anos.".format(n=nome, i=idade))
+
+print("-----------------------------------------------------------------------------------------------------------------")
 
 # Usando f-strings (recomendado)
 print(f"Olá, meu nome é {nome} e tenho {idade} anos.")

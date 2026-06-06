@@ -18,6 +18,7 @@ elif 20 <= temperatura <= 30:
 else:
     print("Está frio.")
 
+print("-----------------------------------------------------------------------------------------------------------------")
 
 #Exemplo de Laços
 
@@ -26,15 +27,21 @@ frutas = ["maçã", "banana", "cereja"]
 for frutas in frutas:
     print(f"Eu gosto de frutas {frutas}.")
 
+print("-----------------------------------------------------------------------------------------------------------------")
+
 #Laço for com range()
 for i in range(5):  # Gera números de 0 a 4
     print(f"Contagem: {i}.")
+
+print("-----------------------------------------------------------------------------------------------------------------")
 
 #Laço while
 contador = 0
 while contador < 3:
     print(f"Contador: {contador}.")
     contador += 1 # Incrementa o contador
+
+print("-----------------------------------------------------------------------------------------------------------------")
 
 #Break e Continue
 for i in range(10):

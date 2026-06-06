@@ -12,6 +12,8 @@ def minha_funcao():
 
 minha_funcao()
 
+print("-----------------------------------------------------------------------------------------------------------------")
+
 #Exemplo de Decorator com Argumentos:
 def repetir(num_vezes):
     def decorator_repetir(funcao):

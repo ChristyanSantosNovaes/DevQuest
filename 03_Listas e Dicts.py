@@ -13,6 +13,8 @@ frutas.append("laranja") # Adiciona um item
 frutas.remove("banana") # Remove um item
 print(f"Lista modificada: {frutas}")
 
+print("---------------------------------------------------------------------------------")
+
 #Exemplo de Dicionário:             #CHAVES
 
 pessoa = {
